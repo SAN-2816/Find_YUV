@@ -52,5 +52,5 @@ if(min_frame_1 > min_frame_10):
 else:
     start_frame = min_frame_1
     end_frame = min_frame_10
-print(start_frame)
-print(end_frame)
+print("앞 프레임: ", start_frame)
+print("뒤 프레임: ", end_frame)
